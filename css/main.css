@@ -1,0 +1,91 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/2384075.jpg); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    *{
+    padding:1%;
+    margin: 2%;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .container {
+    background-color: rgb(74, 180, 199);
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid white ;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    .questions-container{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+    
+    
+    }
+    
+    
+    .questions {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+    }
+    
+
+    .resp-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    
+    
+    }
+    .next-question button{
+        margin-top: 30px;
+    }
+    
+    
+    button{
+        background-color:rgb(9, 60, 141);
+        color:white;
+        border: 1px;;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 6px;
+        height: 48px;
+        padding: 0% 20px;
+        transition: 0.3;
+    
+    
+    }
+     
+    button:hover {
+    filter: brightness( 0.9) ;
+    }
+    
+    /*
+    .hide {
+    display: none;
+    
+    }
+    
