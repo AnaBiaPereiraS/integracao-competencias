@@ -3,8 +3,7 @@
     {
       "id": 1,
       "questao": "Revise o código abaixo. Qual istrução chama a função addImposto e passa 50 como argumento? ",
-      "code": "fuction adicionarImposto(total){
-        return total *1.05}",
+      "code": "fuction adicionarImposto(total){ return total *1.05 }",
       "respostas":{ 
         "a": "a) adicionarImposto= 50;",
         "b": "b) return adicionarImposto 50;",
@@ -40,8 +39,7 @@
     "questao":"Quando você deve usar os elementos <ol> e <ul>?",
     "respostas": {
       "a":"a) Use <ul> quando quiser uma lista de marcadores e <ol> quando quiser uma lista numerada",
-      "b":"b) Use <ul> quando tiver uma lista de itens em que a ordem dos itens é importante
-      Use <ol> quando tiver uma lista de itens  que podem ser colocados em qualquer ordem ",
+      "b":"b) Use <ul> quando tiver uma lista de itens em que a ordem dos itens é importante Use <ol> quando tiver uma lista de itens  que podem ser colocados em qualquer ordem ",
       "c":"c) Use <ol> quando quiser uma lista com marcadores e <ul> quando quiser uma lista numerada",
       "d":"d) Use <ol> "
     },
@@ -73,12 +71,12 @@
   {
   "id":7,
   "questao": "No código a baixo, qual a finalidade do atributo id",
-  "code":"<p id="warning"> Tenha cuidado ao instalar este produto.</p>",
+  "code":"<p id=\"warning\"> Tenha cuidado ao instalar este produto.</p>",
   "respostas": { 
   "a":"a) Ele estabelece que a id é um identificador exclusivo no documento, usado para estilizar CSS, scriptis e links em uma pagina da web",
   "b":"b) Estabelece que o id é um identificador exclusivo no documento, ultilizado para estilização CSS e com o codigo JavaScript",
   "c":"c) Ele estabelece que o id pode ser usado para estilizar CSS varias vezes por pagina",
-  "d":"d) Ele estabelece que o id é um indentificador exclusivo no site, usado para estilizar CSS, scripts e links em uma página da web",
+  "d":"d) Ele estabelece que o id é um indentificador exclusivo no site, usado para estilizar CSS, scripts e links em uma página da web"
   },
 
  "resposta-correta":"a"
@@ -91,7 +89,7 @@
   "a":"a) O servidor envolve a página da web em um wrapper HTML5.",
   "b":"b) Use a declaração <!DOCTYPEhtml> que inicia o documento.",
   "c":"c) O navegador recebe codificação do servidor para exibir o documento como HTML5",
-  "d":"d) Ele está incluido em uma tag <html>",
+  "d":"d) Ele está incluido em uma tag <html>"
   },
 
  "resposta-correta":"b"
@@ -104,7 +102,7 @@
   "a":"a) _blank",
   "b":"b) _self",
   "c":"c) _new",
-  "d":"d) _parent",
+  "d":"d) _parent"
   },
 
  "resposta-correta":"a"
@@ -117,7 +115,7 @@
   "a":"a) This",
   "b":"b) Catch",
   "c":"c) Function",
-  "d":"d) Array",
+  "d":"d) Array"
   },
 
  "resposta-correta":"d"
