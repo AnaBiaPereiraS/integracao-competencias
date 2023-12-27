@@ -33,7 +33,7 @@ var mock = [
     },
     'respostaCorreta': 'a'
     },
-]
+];
 
 window.onload = () => {
 var quizContainer = document.getElementById('quiz');
@@ -64,12 +64,12 @@ for(var letter in questions[i].respostas){
     respostas.push(
         '<label>'
         + '<input type="radio" name="questao'+i+'" value="'+letter+'">'
-        + questions [i].respostas [letter]
+        + questions [i].respostas[letter]
         +'</label>'
     );
 }
 output.push(
-    '<div class="questao"> + questions [i].questão + </div>'
+    '<div class="questao">' + questions [i].questao + '</div>'
     + '<div class = "respostas">'+ respostas.join('') + '</div>'
 );
 
@@ -102,5 +102,4 @@ showQuestions(questions, quizContainer);
 submitButton.onclick = function(){
 showResults (questions, quizContainer,resultsContainer);
 }
-
 }
