@@ -1,94 +1,46 @@
-body{
-    background-image: url(https://wallpaperaccess.com/full/2384075.jpg); 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://wallpaperaccess.com/full/2384075.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Arial', sans-serif;
+        color: #fff;
     }
     
-    *{
-        padding:0%;
-        margin: 0%;
-        box-sizing: border-box;
-    }   
-    
-        
-        .container{
-        background-color: rgb(172, 211, 223);
-        width: 90%;
+    .container {
         max-width: 800px;
-        border: 2px solid white ;
-        border-radius: 6px;
-        padding: 26px;
-        box-shadow: 0 0 2px 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-        
-        
-        .questions-container{
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 25px
-        
-        
-        }
-        
-        
-        .questions {
-        font-size: 23px;
-        font-weight: bolder;
-        text-align: center;
-        color: rgb(4, 83, 109);
-        
-        
-        }
-        
-        
-        .resp-container{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 14px;
-        
-        
-        }
-        .next-question button{
-            margin-top: 30px;
-        }
-        
-        
-        button{
-            background-color: rgb(99, 177, 177);
-            color: white;
-            border: 1px;;
-            font-size: 14px;
-            font-weight: bold;
-            border-radius: 6px;
-            height: 45px;
-            padding: 0% 20px;
-            transition: 0.3;
-        
-        
-        }
-        
-        
-        button:hover {
-        filter: brightness( 0.9) ;
-        }
-        
-        
-        /*
-        .hide {
-        display: none;
-        
-        
-        
-        
-        }
-        
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+    
+    
+    .questao {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .respostas label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    #submit {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #4285f4;
+        color: #fff; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #results {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+     
