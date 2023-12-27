@@ -35,5 +35,54 @@ var mock = [
     },
 ]
 
+window.onload = () => {
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('results');
+var submitButton = document.getElementById('submit');
 
+loadQuestions().then (questions => {console.log(questions)
+    generateQuiz(mock, quizContainer, resultsContainer, submitButton);
+});
+}
 
+const loadQuestions=() => {
+return getAllQuestions().then(questions => {
+    console.log('questions', questions)
+    return questions;
+})
+}
+function generateQuiz(questions, quizContainer, resultsContainer,submitButton){
+
+    function showQuestions(questions,quizContainer){
+var output = [];
+var respostas;
+
+for(var i=0; i<questions.length; i++){
+respostas = [];
+
+for(var letter in questions[i].respostas){
+    respostas.push(
+        '<label>'
+        + <imput type="radio" name="questao'+i+'"value="'+letter+'">'</imput>
+        + questions [i].respostas [letter]
+        +'</label>'
+    );
+}
+output.push(
+    '<div class="questao"> + questions [i].questão + </div>'
+    + '<div class = "respostas">'+ respostas.join('') + '</div>'
+);
+
+}
+    }
+    quizContainer.innerHTML = output.join('');
+}
+
+function showResults(questions,quizContainer,resultsContainer){
+var answerContainers = quizContainer.querySelectorAll('.respostas');
+var userAnswer='';
+var numCorrect=0;
+
+// find selected answer continue daqui//
+for(var i=0; i<questions.length; i++){
+userAnswer=(answerContainers[i].querySelector
