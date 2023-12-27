@@ -63,7 +63,7 @@ respostas = [];
 for(var letter in questions[i].respostas){
     respostas.push(
         '<label>'
-        + <imput type="radio" name="questao'+i+'"value="'+letter+'">'</imput>
+        + '<input type="radio" name="questao'+i+'" value="'+letter+'">'
         + questions [i].respostas [letter]
         +'</label>'
     );
@@ -83,6 +83,24 @@ var answerContainers = quizContainer.querySelectorAll('.respostas');
 var userAnswer='';
 var numCorrect=0;
 
-// find selected answer continue daqui//
-for(var i=0; i<questions.length; i++){
-userAnswer=(answerContainers[i].querySelector
+userAnswer = (answerContainers[i].querySelector('input[name=questao'+i+']:checked') || {}).value;
+
+if (userAnswer===questios[i].respostaCorreta){
+
+numCorrect++;
+
+answerContainers[i].style.color='lightgreen';
+}
+
+else {
+    answerContainers[i].style.color = 'red';
+}
+resultsContainer.innerHTML = ` Acertou ${numCorrect} das ${questions.length} questoes.`;
+
+showQuestions(questions, quizContainer);
+
+submitButton.onclick = function(){
+showResults (questions, quizContainer,resultsContainer);
+}
+
+}
