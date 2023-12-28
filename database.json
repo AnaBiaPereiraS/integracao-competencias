@@ -35,18 +35,8 @@
       "respostaCorreta": "d"
     },
     {
+
       "id": 4,
-      "questao": "Quando você deve usar os elementos <ol> e <ul>?",
-      "respostas": {
-        "a": "Use <ul> quando quiser uma lista de marcadores e <ol> quando quiser uma lista numerada",
-        "b": "Use <ul> quando tiver uma lista de itens em que a ordem dos itens é importante Use <ol> quando tiver uma lista de itens  que podem ser colocados em qualquer ordem ",
-        "c": "Use <ol> quando quiser uma lista com marcadores e <ul> quando quiser uma lista numerada",
-        "d": "Use <ol> "
-      },
-      "respostaCorreta": "d"
-    },
-    {
-      "id": 5,
       "questao": "Quando é a diferença entre os métodos post e get em um formulário?",
       "respostas": {
         "a": "post é usado para enviar informações ao servidor.get é usado para recuperar informações do formulário",
@@ -56,19 +46,9 @@
       },
       "respostaCorreta": "d"
     },
+ 
     {
-      "id": 6,
-      "questao": "Qual é a diferença entre as tegs <div> e <span>",
-      "respostas": {
-        "a": "<div é usado onde uma teg genérica em nivel de bloco é necessária, enquanto <span> é usado onde uma tag genérica embutida é necessária",
-        "b": "<div> é usado para divisões principais em uma página, enquanto <span> é usado para abranger colunas",
-        "c": "<div> é a tag padrão do setor, mas você pode usar <span> se preferir",
-        "d": "<div> é usado onde uma tag genérica embutida é necessária, enquanto <span> é usado onde uma tag genérica em nivel de bloco é necessrária"
-      },
-      "respostaCorreta": "a"
-    },
-    {
-      "id": 7,
+      "id": 5,
       "questao": "No código a baixo, qual a finalidade do atributo id",
       "code": "<p id=\"warning\"> Tenha cuidado ao instalar este produto.</p>",
       "respostas": {
@@ -80,7 +60,7 @@
       "respostaCorreta": "a"
     },
     {
-      "id": 8,
+      "id": 6,
       "questao": "Como você confirma se um documento está escrito em HTML5",
       "respostas": {
         "a": "O servidor envolve a página da web em um wrapper HTML5.",
@@ -91,7 +71,7 @@
       "respostaCorreta": "b"
     },
     {
-      "id": 9,
+      "id": 7,
       "questao": "Para obter um link para abrir em uma nova janele ou guia, use o atributo _",
       "respostas": {
         "a": "_blank",
@@ -102,7 +82,7 @@
       "respostaCorreta": "a"
     },
     {
-      "id": 10,
+      "id": 8,
       "questao": "Qual das alternativas a seguir não é uma palavra chave em JavaScript",
       "respostas": {
         "a": "This",
