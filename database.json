@@ -4,121 +4,113 @@
       "id": 1,
       "questao": "Revise o código abaixo. Qual istrução chama a função addImposto e passa 50 como argumento? ",
       "code": "fuction adicionarImposto(total){ return total *1.05 }",
-      "respostas":{ 
-        "a": " adicionarImposto= 50;",
-        "b": " return adicionarImposto 50;",
-        "c": " adicionarImposto(50);",
-        "d": " adiconarImposto 50"
+      "respostas": {
+        "a": "adicionarImposto= 50;",
+        "b": "return adicionarImposto 50;",
+        "c": "adicionarImposto(50);",
+        "d": "adiconarImposto 50"
       },
-      "resposta-correta": "c"    
+      "respostaCorreta": "c"
+    },
+    {
+      "id": 2,
+      "questao": "qual a afirmação é a maneira correta de criar uma variável chamada taxa e atribuir a ela o valor 100?",
+      "respostas": {
+        "a": "let taxa=100",
+        "b": "let 100 = taxa",
+        "c": "100 = let taxa",
+        "d": "taxa = 100"
       },
-{
- "id":2, 
- "questao": "qual a afirmação é a maneira correta de criar uma variável chamada taxa e atribuir a ela o valor 100?",
-  "respostas": {
-      "a": "let taxa=100",
-      "b": "let 100 = taxa",
-      "c": "100 = let taxa",
-      "d": "taxa = 100"
-  },
-  "resposta-correta": "a"
-  },
-  {
-    "id":3,
-    "questao":"qual método converte dados JSON em uma string?",
-    "respostas": {
-      "a":" JSON.formString()",
-      "b":" JSON.parse()",
-      "c":" JSON.toObject()",
-      "d":" JASN.stryngfy()"
+      "respostaCorreta": "a"
     },
-    "resposta-correta":"d"
-  },
-  {
-    "id":4,
-    "questao":"Quando você deve usar os elementos <ol> e <ul>?",
-    "respostas": {
-      "a":" Use <ul> quando quiser uma lista de marcadores e <ol> quando quiser uma lista numerada",
-      "b":" Use <ul> quando tiver uma lista de itens em que a ordem dos itens é importante Use <ol> quando tiver uma lista de itens  que podem ser colocados em qualquer ordem ",
-      "c":" Use <ol> quando quiser uma lista com marcadores e <ul> quando quiser uma lista numerada",
-      "d":" Use <ol> "
+    {
+      "id": 3,
+      "questao": "qual método converte dados JSON em uma string?",
+      "respostas": {
+        "a": "JSON.formString()",
+        "b": "JSON.parse()",
+        "c": "JSON.toObject()",
+        "d": "JSON.stryngfy()"
+      },
+      "respostaCorreta": "d"
     },
-    "resposta-correta":"d"
-  },
-  {
-    "id":5,
-    "questao":"Quando é a diferença entre os métodos post e get em um formulário?",
-    "respostas": {
-      "a":" post é usado para enviar informações ao servidor.get é usado para recuperar informações do formulário",
-      "b":" get é usado para enviar informações ao servidor. post é usado para recuperar informaçoes do formulário do servidor",
-      "c":" com o get, os dados são incluidos no corpo do formulário quando emviados ao servidor. Com a postagem,os dados passam pela URL",
-      "d":" Com post, os dados são incluidos no corpo do formulário quando enviados ao servidor. com o get, os dados passam pela URL"
+    {
+      "id": 4,
+      "questao": "Quando você deve usar os elementos <ol> e <ul>?",
+      "respostas": {
+        "a": "Use <ul> quando quiser uma lista de marcadores e <ol> quando quiser uma lista numerada",
+        "b": "Use <ul> quando tiver uma lista de itens em que a ordem dos itens é importante Use <ol> quando tiver uma lista de itens  que podem ser colocados em qualquer ordem ",
+        "c": "Use <ol> quando quiser uma lista com marcadores e <ul> quando quiser uma lista numerada",
+        "d": "Use <ol> "
+      },
+      "respostaCorreta": "d"
     },
-    "resposta-correta":"d"
-  },
-  {
-    "id":6,
-    "questao":"Qual é a diferença entre as tegs <div> e <span>",
-    "respostas": {
-      "a":" <div> é usado onde uma teg genérica em nivel de bloco é necessária, enquanto <span> é usado onde uma tag genérica embutida é necessária",
-      "b":" <div> é usado para divisões principais em uma página, enquanto <span> é usado para abranger colunas",
-      "c":" <div> é a tag padrão do setor, mas você pode usar <span> se preferir",
-      "d":" <div> é usado onde uma tag genérica embutida é necessária, enquanto <span> é usado onde uma tag genérica em nivel de bloco é necessrária"
+    {
+      "id": 5,
+      "questao": "Quando é a diferença entre os métodos post e get em um formulário?",
+      "respostas": {
+        "a": "post é usado para enviar informações ao servidor.get é usado para recuperar informações do formulário",
+        "b": "get é usado para enviar informações ao servidor. post é usado para recuperar informaçoes do formulário do servidor",
+        "c": "com o get, os dados são incluidos no corpo do formulário quando emviados ao servidor. Com a postagem,os dados passam pela URL",
+        "d": "Com post, os dados são incluidos no corpo do formulário quando enviados ao servidor. com o get, os dados passam pela URL"
+      },
+      "respostaCorreta": "d"
     },
-    "resposta-correta":"a"
-  },
-  
-  {
-  "id":7,
-  "questao": "No código a baixo, qual a finalidade do atributo id",
-  "code":"<p id=\"warning\"> Tenha cuidado ao instalar este produto.</p>",
-  "respostas": { 
-  "a":"  Ele estabelece que a id é um identificador exclusivo no documento, usado para estilizar CSS, scriptis e links em uma pagina da web",
-  "b":"  Estabelece que o id é um identificador exclusivo no documento, ultilizado para estilização CSS e com o codigo JavaScript",
-  "c":"  Ele estabelece que o id pode ser usado para estilizar CSS varias vezes por pagina",
-  "d":"  Ele estabelece que o id é um indentificador exclusivo no site, usado para estilizar CSS, scripts e links em uma página da web"
-  },
-
- "resposta-correta":"a"
-  },
-
-{
-  "id":8,
-  "questao": "Como você confirma se um documento está escrito em HTML5",
-  "respostas": { 
-  "a":"  O servidor envolve a página da web em um wrapper HTML5.",
-  "b":"  Use a declaração <!DOCTYPEhtml> que inicia o documento.",
-  "c":"  O navegador recebe codificação do servidor para exibir o documento como HTML5",
-  "d":"  Ele está incluido em uma tag <html>"
-  },
-
- "resposta-correta":"b"
-  },
-
-  {
-  "id":9,
-  "questao": "Para obter um link para abrir em uma nova janele ou guia, use o atributo _",
-  "respostas": { 
-  "a":" _blank",
-  "b":" _self",
-  "c":" _new",
-  "d":" _parent"
-  },
-
- "resposta-correta":"a"
-  },
-
-  {
-  "id":10,
-  "questao": "Qual das alternativas a seguir não é uma palavra chave em JavaScript",
-  "respostas": { 
-  "a":" This",
-  "b":" Catch",
-  "c":" Function",
-  "d":" Array"
-  },
-
- "resposta-correta":"d"
-  }
+    {
+      "id": 6,
+      "questao": "Qual é a diferença entre as tegs <div> e <span>",
+      "respostas": {
+        "a": "<div é usado onde uma teg genérica em nivel de bloco é necessária, enquanto <span> é usado onde uma tag genérica embutida é necessária",
+        "b": "<div> é usado para divisões principais em uma página, enquanto <span> é usado para abranger colunas",
+        "c": "<div> é a tag padrão do setor, mas você pode usar <span> se preferir",
+        "d": "<div> é usado onde uma tag genérica embutida é necessária, enquanto <span> é usado onde uma tag genérica em nivel de bloco é necessrária"
+      },
+      "respostaCorreta": "a"
+    },
+    {
+      "id": 7,
+      "questao": "No código a baixo, qual a finalidade do atributo id",
+      "code": "<p id=\"warning\"> Tenha cuidado ao instalar este produto.</p>",
+      "respostas": {
+        "a": "Ele estabelece que a id é um identificador exclusivo no documento, usado para estilizar CSS, scriptis e links em uma pagina da web",
+        "b": "Estabelece que o id é um identificador exclusivo no documento, ultilizado para estilização CSS e com o codigo JavaScript",
+        "c": "Ele estabelece que o id pode ser usado para estilizar CSS varias vezes por pagina",
+        "d": "Ele estabelece que o id é um indentificador exclusivo no site, usado para estilizar CSS, scripts e links em uma página da web"
+      },
+      "respostaCorreta": "a"
+    },
+    {
+      "id": 8,
+      "questao": "Como você confirma se um documento está escrito em HTML5",
+      "respostas": {
+        "a": "O servidor envolve a página da web em um wrapper HTML5.",
+        "b": "Use a declaração <!DOCTYPEhtml> que inicia o documento.",
+        "c": "O navegador recebe codificação do servidor para exibir o documento como HTML5",
+        "d": "Ele está incluido em uma tag <html>"
+      },
+      "respostaCorreta": "b"
+    },
+    {
+      "id": 9,
+      "questao": "Para obter um link para abrir em uma nova janele ou guia, use o atributo _",
+      "respostas": {
+        "a": "_blank",
+        "b": "_self",
+        "c": "_new",
+        "d": "_parent"
+      },
+      "respostaCorreta": "a"
+    },
+    {
+      "id": 10,
+      "questao": "Qual das alternativas a seguir não é uma palavra chave em JavaScript",
+      "respostas": {
+        "a": "This",
+        "b": "Catch",
+        "c": "Function",
+        "d": "Array"
+      },
+      "respostaCorreta": "d"
+    }
   ]
 }
